@@ -1,28 +1,28 @@
 class Cloudcode < Formula
   desc "Persistent cloud Claude Code sessions on Hetzner VPS"
   homepage "https://github.com/ssreeni1/cloudcode"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ssreeni1/cloudcode/releases/download/v0.1.0/cloudcode-aarch64-apple-darwin"
-      sha256 "2f69d09b542423c0a770bba21cb5671b4d94b194320afc9a6d2eaa2094d91bbc"
+      url "https://github.com/ssreeni1/cloudcode/releases/download/v0.1.1/cloudcode-aarch64-apple-darwin"
+      sha256 "d81ce8dd74841cf0581d5341d8008c764b5a9f8dcdc0ad3bf56d3d29cada6b4a"
     end
     on_intel do
-      url "https://github.com/ssreeni1/cloudcode/releases/download/v0.1.0/cloudcode-x86_64-apple-darwin"
-      sha256 "b9f330da79f38c1a2de64321080833bf452f5e55e352e16c58f7c150c6c74f56"
+      url "https://github.com/ssreeni1/cloudcode/releases/download/v0.1.1/cloudcode-x86_64-apple-darwin"
+      sha256 "506d796d74d41b0e5cd22f6e1132981a6c99d6ba7ca1ff1ff4146f96d4398901"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ssreeni1/cloudcode/releases/download/v0.1.0/cloudcode-aarch64-unknown-linux-gnu"
-      sha256 "74d2d4cd9017bedbedea9d73eb65123ce09fcf409f63f998462ab8f8c5a6f9e1"
+      url "https://github.com/ssreeni1/cloudcode/releases/download/v0.1.1/cloudcode-aarch64-unknown-linux-gnu"
+      sha256 "58a32ef36c476dd848534239f0c38f53ecfaea71a7fbd202768917cbfccf0a59"
     end
     on_intel do
-      url "https://github.com/ssreeni1/cloudcode/releases/download/v0.1.0/cloudcode-x86_64-unknown-linux-gnu"
-      sha256 "3bf70fe0077fd252d367c796980226e98b62fe599a875a20bceb6957ac443883"
+      url "https://github.com/ssreeni1/cloudcode/releases/download/v0.1.1/cloudcode-x86_64-unknown-linux-gnu"
+      sha256 "bca7cb379989a93446c01f0d7cf11416d76de4db9ea9583c4c507ff4688eaa52"
     end
   end
 
