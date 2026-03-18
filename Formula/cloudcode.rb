@@ -7,22 +7,22 @@ class Cloudcode < Formula
   on_macos do
     on_arm do
       url "https://github.com/ssreeni1/cloudcode/releases/download/v0.1.3/cloudcode-aarch64-apple-darwin"
-      sha256 "aaadfaea0cf23ddeac6b267150c0c9662ee6a6f9e61929cfb69487675eac5372"
+      sha256 "2078af685be32d91a2a5fe7014eb3aa8629c10e98471fe9d218292435733adee"
     end
     on_intel do
       url "https://github.com/ssreeni1/cloudcode/releases/download/v0.1.3/cloudcode-x86_64-apple-darwin"
-      sha256 "093e52ee452ca669ee5526baf98d44549e26ed89046e5aee7d84daa36049eb6a"
+      sha256 "1041229ea5eaf170ac770cb1a9143d98d89e821cd4f0d67aca026a508a6d5650"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ssreeni1/cloudcode/releases/download/v0.1.3/cloudcode-aarch64-unknown-linux-gnu"
-      sha256 "7ed3c6f7f78c97bb5987dabb1730df489e865decac307b173f9dac55b0b7beb2"
+      sha256 "79c85bead7b07cc8a6a982e07e6ab888bafc87e69b78567a1cebfd01268dbca5"
     end
     on_intel do
       url "https://github.com/ssreeni1/cloudcode/releases/download/v0.1.3/cloudcode-x86_64-unknown-linux-gnu"
-      sha256 "c5f4d2efa65d60752718ba7b9391bd5523e70f20b30d22355cedb53940272360"
+      sha256 "456f15a37abf32193d08a7ec7a75c250e9bbfc0dccaea5909642fd30071307e2"
     end
   end
 
